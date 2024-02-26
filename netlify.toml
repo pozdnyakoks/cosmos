@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build" # Команда для сборки проекта
+  publish = "public"         # Директория, из которой Netlify развернет ваше приложение
+
+[[redirects]]                # Настройка перенаправлений, если нужно
+  from = "/*"
+  to = "/index.html"
+  status = 200
